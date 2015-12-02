@@ -27,7 +27,9 @@ body{
      height:225px;
      width: 250px;
      display:inline-block;
-     margin-top: 50px
+     position:relative;
+     margin-top:60px;
+     margin-left:50px;
 }
 
 #toyota p{
@@ -43,8 +45,9 @@ body{
      width: 250px;
     display:inline-block;
     border: 2px solid black;
-    margin-left: 50px;
-     margin-top: 50px;
+    position:relative;
+     margin-top:60px;
+     margin-left:50px;
 }
 
 #audi p{
@@ -61,14 +64,16 @@ body{
      width: 250px;
     display:inline-block;
     border: 2px solid black;
-    margin-left: 50px;
-   margin-top: 150px;
+   position:relative;
+     margin-top:60px;
+     margin-left:50px;
 }
 
 #mazda p{
     position:relative;
     top: 130px;
     text-align:center;
+    
 }
 
 #house{
@@ -95,7 +100,7 @@ body{
      display:inline-block;
      margin-top: 0px;
      position:relative;
-     margin-left:65px;
+     margin-left:50px;
          
 }
 
@@ -115,7 +120,7 @@ body{
     margin-left: 50px;
      margin-top: 0px;
        position:relative;
-     margin-left: 65px;
+     margin-left: 50px;
 }
 
 #bedroom p{
@@ -134,7 +139,7 @@ body{
     margin-left: 50px;
    margin-top: 0px;
      position:relative;
-     margin-left: 65px;
+     margin-left: 50px;
 }
 
 #bathroom p{
