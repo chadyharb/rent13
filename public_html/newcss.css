@@ -81,13 +81,13 @@ body{
     background-repeat: no-repeat;
     height:300px;
     width: 5000px;
-    margin-left: 180px;
+    margin-left: 190px;
 }
 
-#house pre{
+#house li{
    color:blue;
    position: relative;
-   right:180px;
+   right:190px;
 }
 
 #livingroom{
@@ -148,3 +148,35 @@ body{
     text-align:center;
 }
 
+#boat1{
+      background-image: url('boat1.jpg');
+      background-repeat: no-repeat;
+         height:300px;
+     width: 400px;
+     display:inline-block;
+    
+}
+
+#boat1 p,h1{
+    position:relative;
+    top: 240px;
+    text-align:center;
+    color: green;
+}
+
+
+#boat2{
+      background-image: url('boat2.jpg');
+      background-repeat: no-repeat;
+         height:240px;
+     width: 370px;
+     display:inline-block;
+     position:relative;
+     margin-left: 216px;
+    
+}
+
+#table{
+    position:relative;
+     margin-left: 320px;
+}
