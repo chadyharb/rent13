@@ -1,0 +1,145 @@
+*{
+    font-family: "Comic Sans ms",serif;
+}
+
+body{
+    background-color: yellow;
+}
+
+#menu{
+    background-color: red;
+    padding:10px 0px;
+}
+
+#menu>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+    
+}
+
+#toyota{
+    background-image: url('toyota.jpg');
+     background-repeat: no-repeat;
+     
+     border: 2px solid black;
+     height:225px;
+     width: 250px;
+     display:inline-block;
+     margin-top: 50px
+}
+
+#toyota p{
+    position:relative;
+    top: 130px;
+    text-align:center;
+}
+
+#audi{
+   background-image: url('audi.jpg');
+    background-repeat: no-repeat;
+ height:225px;
+     width: 250px;
+    display:inline-block;
+    border: 2px solid black;
+    margin-left: 50px;
+     margin-top: 50px;
+}
+
+#audi p{
+    position:relative;
+    top: 130px;
+    text-align:center;
+}
+
+
+#mazda{
+     background-image: url('mazda.jpg');
+      background-repeat: no-repeat;
+         height:225px;
+     width: 250px;
+    display:inline-block;
+    border: 2px solid black;
+    margin-left: 50px;
+   margin-top: 150px;
+}
+
+#mazda p{
+    position:relative;
+    top: 130px;
+    text-align:center;
+}
+
+#house{
+    background-image: url('house.jpg');
+    background-repeat: no-repeat;
+    height:300px;
+    width: 5000px;
+    margin-left: 180px;
+}
+
+#house pre{
+   color:blue;
+   position: relative;
+   right:180px;
+}
+
+#livingroom{
+    background-image: url('living.jpg');
+     background-repeat: no-repeat;
+     
+     border: 1px solid black;
+     height:225px;
+     width: 250px;
+     display:inline-block;
+     margin-top: 0px;
+     position:relative;
+     margin-left:65px;
+         
+}
+
+#livingroom p{
+    position:relative;
+    top: 220px;
+    text-align:center;
+}
+
+#bedroom{
+   background-image: url('bed.jpg');
+    background-repeat: no-repeat;
+ height:225px;
+     width: 250px;
+    display:inline-block;
+    border: 2px solid black;
+    margin-left: 50px;
+     margin-top: 0px;
+       position:relative;
+     margin-left: 65px;
+}
+
+#bedroom p{
+    position:relative;
+    top: 220px;
+    text-align:center;
+}
+
+#bathroom{
+     background-image: url('bath.jpg');
+      background-repeat: no-repeat;
+         height:225px;
+     width: 250px;
+    display:inline-block;
+    border: 2px solid black;
+    margin-left: 50px;
+   margin-top: 0px;
+     position:relative;
+     margin-left: 65px;
+}
+
+#bathroom p{
+    position:relative;
+    top: 220px;
+    text-align:center;
+}
+
