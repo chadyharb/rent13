@@ -4,6 +4,7 @@
         <title> CARS </title>
         <link href="newcss.css" rel="stylesheet"/>
         <meta charset="UTF-8">
+       <script src="jquery-2.1.3.js"></script>
     </head>
     <body>
            <div id="wrapper">
@@ -24,21 +25,58 @@
                
             </div>
             
-        </div>
+        
         <div id="toyota">
-            <p><i><b> Toyota model 2010</b></i></p>
-            <p><u><b>Price per day 80$</b></u></p>
+            <p class="blue"><i><b> Toyota model 2010</b></i></p>
+            <p onmouseover="this.style.color='pink'"><u><b>Price per day 80$</b></u></p>
         </div>
         <div id="audi">
-            <p><i><b>Audi A4 model 2011</b></i></p>
-            <p><u><b>Price per day 100$</b></u> </p>
+            <p class="blue"><i><b>Audi A4 model 2011</b></i></p>
+            <p onmouseover="this.style.color='green'"><u><b>Price per day 100$</b></u> </p>
             
         </div>
         
         <div id="mazda">
-            <p><i><b>Mazda model 2011</b></i></p>
-            <p><u><b>Price per day 70$</b></u></p>
+            <p class="blue"><i><b>Mazda model 2011</b></i></p>
+            <p onmouseover="this.style.color='red'"><u><b>Price per day 70$</b></u></p>
         </div>
+         <button onclick="getStyle()">Get style</button>
+        <script>
+            function getStyle() {
+                var blue = document.
+                        getElementsByClassName("blue");
+                for(var i=0;i<blue.length;i++){
+                    blue[i].style.color="blue";
+                }
+                /*
+                var paras = document.getElementsByTagName("p");
+                for(var i=0;i<2;i++){
+                    paras[i].style.fontWeight="bold";
+                }
+                */
+                var div1p = document.querySelectorAll("#div1>p");
+                for(var i=0;i<div1p.length;i++){
+                    div1p[i].style.fontWeight="bold";
+                }
+            }
+        </script>
+        
+            <script>
+            $(document).ready(function(){
+               $("p:has(a)").css("font-style","italic");
+               $(".links:contains('Google')").css("color","green");
+               $("a:not(.links)").css({"color":"red"});
+//               /$("a").not(".links").css("color","red");
+            });
+        </script>
+    </head>
+    
+    <body>
+        <p>Search engines</p>
+        <p><a href="" class="links">Google's</a> website</p>
+        <p><a href="" class="links">Yahoo's</a> website</p>
+        <p>Click <a href="">here</a> for more</p>
+    </body>
              
     </body>
 </html>
