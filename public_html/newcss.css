@@ -91,12 +91,11 @@ body{
 }
 
 #livingroom{
-    background-image: url('living.jpg');
+    
      background-repeat: no-repeat;
      
-     border: 1px solid black;
-     height:225px;
-     width: 250px;
+    
+     
      display:inline-block;
      margin-top: 0px;
      position:relative;
@@ -106,17 +105,14 @@ body{
 
 #livingroom p{
     position:relative;
-    top: 220px;
+    
     text-align:center;
 }
 
 #bedroom{
-   background-image: url('bed.jpg');
-    background-repeat: no-repeat;
- height:225px;
-     width: 250px;
+   
     display:inline-block;
-    border: 2px solid black;
+   
     margin-left: 50px;
      margin-top: 0px;
        position:relative;
@@ -125,17 +121,14 @@ body{
 
 #bedroom p{
     position:relative;
-    top: 220px;
+   
     text-align:center;
 }
 
 #bathroom{
-     background-image: url('bath.jpg');
-      background-repeat: no-repeat;
-         height:225px;
-     width: 250px;
+    
     display:inline-block;
-    border: 2px solid black;
+   
     margin-left: 50px;
    margin-top: 0px;
      position:relative;
@@ -144,7 +137,7 @@ body{
 
 #bathroom p{
     position:relative;
-    top: 220px;
+    
     text-align:center;
 }
 

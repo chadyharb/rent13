@@ -11,6 +11,14 @@
                $("li:last").css("color","green");
                    });
         </script>
+        <script>
+            $(document).ready(function() {
+                $(":radio").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
+        
         
     </head>
     <body>
@@ -35,16 +43,40 @@
         </div>
         
         <div id="livingroom">
-            <p><q>Living room</q></p>
+            <p><img src="living.jpg" alt="webimage" 
+                height="225" width="250"/></p>
+        <label><input type="radio" name="webradios" checked
+                      onchange="$('img').attr('src', 'living.jpg')"/>living</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'bath.jpg')"/>bath</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'bed.jpg')"/>bed</label>
+        
+            
         </div>
         
         <div id="bedroom">
-            <p><q>Bedroom</q></p>
+           <p><img src="bath.jpg" alt="webimage" 
+                height="225" width="250"/></p>
+        <label><input type="radio" name="webradios" checked
+                      onchange="$('img').attr('src', 'bath.jpg')"/>bath</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'living.jpg')"/>living</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'bed.jpg')"/>bed</label>
             
         </div>
         
         <div id="bathroom">
-            <p><q>Bathroom</q></p>
+             <p><img src="bed.jpg" alt="webimage" 
+                height="225" width="250"/></p>
+        <label><input type="radio" name="webradios" checked
+                      onchange="$('img').attr('src', 'bed.jpg')"/>bed</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'living.jpg')"/>living</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'bath.jpg')"/>bath</label>
+           
         </div>
                     </div>
            
